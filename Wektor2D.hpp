@@ -1,6 +1,6 @@
 class Wektor2D
 {
-   {
+   
 private:
     double x;
     double y;
@@ -37,5 +37,5 @@ public:
     {
         return vec_1.getX() * vec_2.getX() + vec_1.getY() * vec_2.getY();
     }
-    
+   
 };
